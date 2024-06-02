@@ -6,6 +6,7 @@ import {
   ImageProps,
   Image,
   TouchableOpacity,
+  TextInput,
 } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import {
@@ -100,6 +101,7 @@ const CartItem: React.FC<CartItemProps> = ({
                   <Text style={styles.CartItemQuantityText}>
                     {data.quantity}
                   </Text>
+          
                 </View>
                 <TouchableOpacity
                   style={styles.CartItemIcon}

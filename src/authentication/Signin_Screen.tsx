@@ -82,7 +82,7 @@ export default function Signin_Screen({ navigation }: Signin_ScreenProps) {
                 /> */}
                     <View style={{ position: "relative", top: "5%" }} >
                         <Text style={styles.Title} >
-                            Constructly.in
+                            abibo
                         </Text>
                     </View>
 
@@ -140,7 +140,7 @@ const styles = StyleSheet.create({
     Title: {
         textAlign: 'center',
         fontSize: widthPercentageToDP('7%'),
-        color: color.Offwhite,
+        color: "red",
         marginTop: heightPercentageToDP('10%'),
         fontFamily: 'Cardo-Regular',
 
