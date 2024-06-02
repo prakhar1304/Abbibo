@@ -12,7 +12,7 @@ const EmptyListAnimation: React.FC<EmptyListAnimationProps> = ({title}) => {
     <View style={styles.EmptyCartContainer}>
       <LottieView
         style={styles.LottieStyle}
-        source={require('../lottie/coffeecup.json')}
+        source={require('../lottie/run.json')}
         autoPlay
         loop
       />
@@ -25,15 +25,21 @@ const styles = StyleSheet.create({
   EmptyCartContainer: {
     flex: 1,
     justifyContent: 'center',
+    alignItems: 'center',
+   
   },
   LottieStyle: {
-    height: 300,
+    height: 250,
+    width:250,
+
+    //  backgroundColor:"white"
   },
   LottieText: {
     fontFamily: FONTFAMILY.poppins_medium,
     fontSize: FONTSIZE.size_16,
     color: COLORS.primaryOrangeHex,
     textAlign: 'center',
+    alignSelf:"center",
   },
 });
 
